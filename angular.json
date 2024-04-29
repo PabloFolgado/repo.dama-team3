@@ -25,13 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",  "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css"
             ],
-            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
+            "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -93,16 +89,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css", "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.css"
             ],
-            "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
+            "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5e513d29-0d60-4d53-9123-8edce8c18360"
   }
 }
