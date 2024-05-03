@@ -1,7 +1,8 @@
 <body>
     <div class="div-container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-6">
+        <div class="row">
+            
+            <div class="col-md-6">
                 <div class="login-card">
                     <h2>Registrarse</h2>
                     <form method="post" onsubmit="reiniciarPagina(); return true;">
@@ -10,32 +11,41 @@
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Apellidos:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Correo electronico:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirmar contraseña:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+
+            
+            <div class="col-md-6">
+                <div class="login-card">
+                    
+                    <form method="post" onsubmit="reiniciarPagina(); return true;">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Localidad:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Codigo Postal:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
                         <button type="button" class="btn btn-dark">Registrarse</button>
                     </form>
-                    <p class="enlaceregistro">En el caso que ya tengas una cuenta,  <a class="registroenlace" routerLink="/login">Inicia Sesion aquí</a>.</p>
+                    <p class="enlaceregistro">En caso de que ya tengas una cuenta, <a class="registroenlace" routerLink="/login">inicia sesión aquí</a>.</p>
                 </div>
-            
-                <script>
-                    function reiniciarPagina() {
-                        setTimeout(function() {
-                            window.location.href = window.location.href; 
-                        }, 100);
-                    }
-                </script>
             </div>
+            
         </div>
     </div>
-   
 </body>
-
