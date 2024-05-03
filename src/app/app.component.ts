@@ -5,12 +5,13 @@ import { HomeComponent } from './componentes/home/home.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { RegisterComponent } from './componentes/register/register.component';
+import { PagoComponent } from './componentes/pago/pago.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent],
+  imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent,PagoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
