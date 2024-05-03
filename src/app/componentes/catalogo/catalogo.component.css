@@ -9,3 +9,7 @@ body{
 .card-link{
     color:  #0b0b0b;
 }
+h1{
+   margin-bottom: 20px; 
+   margin-top: 40px;
+}
