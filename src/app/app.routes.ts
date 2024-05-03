@@ -18,6 +18,4 @@ export const routes: Routes = [
     {path:'pago', title:'Pago', component: PagoComponent},
     {path:'contact', title:'Contacto', component: ContactComponent},
     {path:'**', component: PageNotFoundComponent}
-
-    
 ];
