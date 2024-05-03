@@ -1,0 +1,12 @@
+.login-card{
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(81, 142, 153);
+    color: white;
+}
+h2{
+    color: black;
+}

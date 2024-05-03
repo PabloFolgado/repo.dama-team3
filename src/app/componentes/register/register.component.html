@@ -1,1 +1,41 @@
-<p>register works!</p>
+<body>
+    <div class="div-container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="login-card">
+                    <h2>Registrarse</h2>
+                    <form method="post" onsubmit="reiniciarPagina(); return true;">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Nombre:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Apellidos:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electronico:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="button" class="btn btn-dark">Registrarse</button>
+                    </form>
+                    <p class="enlaceregistro">En el caso que ya tengas una cuenta,  <a class="registroenlace" href="/login">Inicia Sesion aquí</a>.</p>
+                </div>
+            
+                <script>
+                    function reiniciarPagina() {
+                        setTimeout(function() {
+                            window.location.href = window.location.href; 
+                        }, 100);
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
