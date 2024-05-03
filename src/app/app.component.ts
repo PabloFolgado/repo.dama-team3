@@ -6,12 +6,18 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { RegisterComponent } from './componentes/register/register.component';
+import { PagoComponent } from './componentes/pago/pago.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
+<<<<<<< HEAD
   imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent,RegisterComponent, FooterComponent],
+=======
+
+  imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent,PagoComponent,FooterComponent],
+>>>>>>> c71d189e199b840c7bc8bdfdb19dd5265264f89e
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
