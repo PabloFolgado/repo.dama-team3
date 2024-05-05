@@ -9,7 +9,7 @@ body{
 .card-link{
     color:  #0b0b0b;
     display: flex;
-    justify-content: center;
+    justify-content:end;
 }
 h1{
    margin-bottom: 20px; 
