@@ -7,6 +7,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { RegisterComponent } from './componentes/register/register.component';
 import { PagoComponent } from './componentes/pago/pago.component';
+import { HeaderComponent } from './componentes/header/header.component';
 
 
 @Component({
@@ -14,7 +15,7 @@ import { PagoComponent } from './componentes/pago/pago.component';
   standalone: true,
 
 
-  imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent,PagoComponent,FooterComponent],
+  imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent,PagoComponent,FooterComponent,HeaderComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
