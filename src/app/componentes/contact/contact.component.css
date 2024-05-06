@@ -1,12 +1,16 @@
-body{
-    background-color: #545050;
-    color: white;
-    
+*{
+    background-color: #393b3f;
 }
-h2{
-    color: black;
+h2, p{
+    color: white;
 }
 
 button{
     background-color: #2BC138;
+}
+::placeholder{
+    color: white
+}
+.form-label{
+    color: white
 }
