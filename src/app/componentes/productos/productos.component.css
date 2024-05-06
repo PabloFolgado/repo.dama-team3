@@ -1,10 +1,10 @@
 .btn {
-    background-color: #545050;
+    background-color:  #2bc138;
     color:  rgb(247, 252, 253);
 
 }
 body{
-    background: rgb(225, 229, 230);
+    background: rgb(73, 74, 76);
 }
 
 
@@ -14,7 +14,12 @@ body{
 h4{
     display: flex;
     justify-content: center;
+    color: rgb(247, 252, 253)
 }
 .card{
     margin-left: 90px;
 }
+h3, h2, p{
+    color: rgb(247, 252, 253) ;
+}
+
