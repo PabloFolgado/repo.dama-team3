@@ -1,13 +1,14 @@
-body{
-    background-color: rgb(73, 74, 76);
-    
+
+*{
+    background-color: #393b3f;
 }
+
 .btn{
     background-color: #2bc138;
     color:  rgb(247, 252, 253);
 }
 .card-link{
-    color:  #0b0b0b;
+    color:  white;
     display: flex;
     justify-content:end;
 }
@@ -15,4 +16,7 @@ h1{
    margin-bottom: 20px; 
    margin-top: 40px;
    color: rgb(247, 252, 253) ;
+}
+h3, h5{
+    color: white;
 }
