@@ -3,13 +3,14 @@
     color:  rgb(247, 252, 253);
 
 }
-body{
-    background: rgb(73, 74, 76);
+*{
+    background-color: #393b3f;
+    margin-top: 0%;
 }
-
 
 .row{
     padding-top: 40px;
+    margin-top: -50px;
 }
 h4{
     display: flex;
@@ -19,7 +20,7 @@ h4{
 .card{
     margin-left: 90px;
 }
-h3, h2, p{
+h3, h2, p, h5{
     color: rgb(247, 252, 253) ;
 }
 

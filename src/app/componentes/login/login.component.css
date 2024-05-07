@@ -3,12 +3,16 @@
     margin-bottom: 10px;
 }
 
-body{
-    background-color: #545050;
-    color: white;
-    
+*{
+    background-color: #393b3f;
 }
 
-h2{
-    color: black;
+h2, p{
+    color: white;
+}
+.form-label{
+    color: white
+}
+.form-control{
+    background-color: white;
 }
