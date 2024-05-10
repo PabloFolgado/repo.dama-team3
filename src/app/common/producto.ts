@@ -8,8 +8,10 @@ export interface Producto {
     
 }
 export interface Marca {
+    id: number
     nombreMarca: string
     nombre: string
+    img: string
     caracteristicas: string
     descripcion: string
     precio: string
