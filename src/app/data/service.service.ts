@@ -11,7 +11,7 @@ export class ServiceService {
   constructor(private http:HttpClient) { }
 
   getProductos(): Observable<Producto>{
-    return this.http.get<any>('./assets/data/data.json')
+    return this.http.get<Producto>('./assets/data/data.json')
   }
 
 }
