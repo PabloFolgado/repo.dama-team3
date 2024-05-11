@@ -8,6 +8,7 @@ h2, p{
 button{
     background-color: #2BC138;
     margin-bottom: 20px;
+    color: white;
 }
 ::placeholder{
     color: white

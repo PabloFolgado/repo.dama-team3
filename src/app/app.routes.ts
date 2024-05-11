@@ -14,7 +14,7 @@ export const routes: Routes = [
     {path:'catalogo', title:'Catalogo', component: CatalogoComponent},
     {path:'login', title:'Login', component: LoginComponent},
     {path:'register', title:'Register', component: RegisterComponent},
-    {path:'productos', title:'Productos', component: ProductosComponent},
+    {path:'productos/:parametro', title:'Productos', component: ProductosComponent},
     {path:'pago', title:'Pago', component: PagoComponent},
     {path:'contact', title:'Contacto', component: ContactComponent},
     {path:'**', component: PageNotFoundComponent}

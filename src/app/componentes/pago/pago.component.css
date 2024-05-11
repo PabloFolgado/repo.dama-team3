@@ -3,3 +3,13 @@
     height: 100vh !important;
     }
 }
+*{
+    background-color: #393b3f;
+}
+h5 a {
+    color: aliceblue;
+}
+.mb-0, .mb-1, .mb-3, .small_mb-0, .form-label{
+    color: white
+}
+
