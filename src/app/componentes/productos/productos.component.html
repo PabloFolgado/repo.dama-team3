@@ -2,23 +2,27 @@
   @for (categoria of productos.categorias; track categoria) {
     <div class="col-3">
       <div class="card" style="width: 18rem;">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">categoria.dispositivo</li>
-        </ul>
-        <ul> 
-          <h2>
-            @for (marca of categoria.marcas; track marca) { 
-              <li class="list-group-item">marca.nombreMarca</li>
-              <li class="list-group-item">marca.nombre</li>
-              <li class="list-group-item">marca.img</li>
-              <li class="list-group-item">marca.caracteristicas</li>
-              <li class="list-group-item">marca.descripcion</li>
-              <li class="list-group-item">marca.precio</li>
-            }
-          </h2>
-        </ul> 
-        
-      </div>
-    </div>
-  }
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{categoria.dispositivo}}</li>
+          </ul>
+          <ul>
+            <h2>@for (marca of categoria.marcas; track marca) {
+               
+              <li class="list-group-item">{{marca.nombreMarca}}</li>
+             <li class="list-group-item">{{marca.nombre}}</li>
+             <li class="list-group-item">{{marca.img}}</li>
+             <li class="list-group-item">{{marca.nombreMarca}}</li>
+             <li class="list-group-item">{{marca.caracteristicas}}</li>
+             <li class="list-group-item">{{marca.descripcion}}</li>
+             <li class="list-group-item">{{marca.precio}}</li>
+           }
+          
+           </h2>
+          </ul>
+         
+        </div>
+  </div>
+ 
+}
+  
 </div>
