@@ -8,6 +8,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { RegisterComponent } from './componentes/register/register.component';
 import { PagoComponent } from './componentes/pago/pago.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { ProductosComponent } from './componentes/productos/productos.component';
 
 
 @Component({
@@ -15,7 +16,7 @@ import { HeaderComponent } from './componentes/header/header.component';
   standalone: true,
 
 
-  imports: [RouterOutlet, RouterLink,CatalogoComponent, HomeComponent, NavbarComponent, LoginComponent,PagoComponent,FooterComponent,HeaderComponent],
+  imports: [RouterOutlet, RouterLink, NavbarComponent,FooterComponent,HeaderComponent,ProductosComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

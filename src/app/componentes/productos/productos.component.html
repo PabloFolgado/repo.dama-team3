@@ -1,59 +1,28 @@
 
-<div>
+  <div class="row justify-space-evenly">
+      @for (categoria of productos.categorias; track categoria) {
+  <div class="col-3">
+      <div class="card" style="width: 18rem;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{categoria.dispositivo}}</li>
+          </ul>
+          <!-- <ul> -->
+            <!-- <h2>@for (marca of categorias.marcas; track marca) { -->
+              <!-- <li class="list-group-item">{{marca.nombreMarca}}</li>
+              <li class="list-group-item">{{marca.nombre}}</li>
+              <li class="list-group-item">{{marca.img}}</li>
+              <li class="list-group-item">{{marca.nombreMarca}}</li>
+              <li class="list-group-item">{{marca.caracteristicas}}</li>
+              <li class="list-group-item">{{marca.descripcion}}</li>
+              <li class="list-group-item">{{marca.precio}}</li>
+            }
 
-  <div class="container mt-5" >
-    <div class="row" >
-      <div class="col-md-6">
-        <h2 class="product-title">Apple Macbook Air</h2>
-        <img src="./assets/Imagenes/portatilapple.png" style="width: 30rem" alt="Producto A" class="product-img">
-      </div>
-      <div class="col-md-6">
-        <h3>M2/8GB/256GB SSD/GPU Octa Core/13.6" Gris Espacial</h3>
-        <p>Los MacBook pueden ofrecer una autonomía de hasta 22 horas de uso con una sola carga de batería en los modelos con Apple Silicon, concretamente, en el MacBook Pro de 13” con Touch Bar, un equipo que lleva un tiempo con nosotros, es capaz de alcanzar las 20 horas de uso. En los demás equipos como el MacBook Air o el MacBook Pro de 14”, la autonomía que garantiza Apple llega hasta las 18 horas, que no está nada mal. Por supuesto, esto es muy variable, ya que dependerá de nuestro uso, pero sí que es una clara referencia a que podemos salir de casa con nuestro portátil para ir a la oficina y olvidarnos el cargador intencionadamente, ya que, posiblemente, no lo vamos a necesitar durante nuestra jornada laboral.</p>
-        <h3>Precio: 993,65€</h3>
-        <button class="btn">Comprar</button>
-      </div>
-    </div>
+            </h2>
+        </ul> -->
+         
+        </div>
   </div>
-
-
-
-
-  <div class="container mt-5">
-    <h4>Productos Relacionados Destacados</h4>
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="card" style="width: 15rem;">
-          <img src="./assets/Imagenes/iPhone1.png" height="200"  class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">iPhone 15 Pro MAX</h5>
-            <p class="card-text">Actualizate con el útimo iPhone</p>
-            <a href="/catalogo" class="btn">Ir al producto</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card" style="width: 15rem;">
-          <img src="./assets/Imagenes/iPad.png" height="200" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Apple iPad Pro 2022</h5>
-            <p class="card-text">Consigue ahora tu iPad al mejor precio.</p>
-            <a href="/catalogo" class="btn">Ir al producto</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card" style="width: 15rem;">
-          <img src="./assets/Imagenes/Airtag.png" height="200" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Apple AirTag</h5>
-            <p class="card-text">No pierdas nada gracias a tu Airtag.</p>
-            <a href="/catalogo" class="btn">Ir al producto</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
+}
+  
 </div>
