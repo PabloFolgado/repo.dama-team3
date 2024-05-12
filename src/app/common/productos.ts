@@ -1,8 +1,8 @@
 export interface Productos {
-    productos: Producto[]
+    categorias: Categoria[]
 }
 
-export interface Producto {
+export interface Categoria{
     dispositivo: string
     marcas: Marca[]
     

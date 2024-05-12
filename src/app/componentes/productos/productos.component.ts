@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { Producto } from '../../common/producto';
+import { Productos } from '../../common/productos';
 import { ServiceService } from '../../data/service.service';
 
 @Component({
@@ -12,7 +12,7 @@ import { ServiceService } from '../../data/service.service';
 })
 export class ProductosComponent implements OnInit{
   
-  productos!: Producto;
+  productos!: Productos;
   constructor(private dataservice: ServiceService){}
 
   ngOnInit(): void {
