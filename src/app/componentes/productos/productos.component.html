@@ -1,32 +1,38 @@
 
-  <div class="row justify-space-evenly">
-      @for (categoria of productos.categorias; track categoria) {
-  <div class="col-3">
-      <div class="card" style="width: 18rem;">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{categoria.dispositivo}}</li>
-          </ul>
-          
-          <ul>
-            <h2>@for (marca of categoria.marcas; track marca) {
-               
-              <li class="list-group-item">{{marca.nombreMarca}}</li>
-             <li class="list-group-item">{{marca.nombre}}</li>
-             <li class="list-group-item">{{marca.img}}</li>
-             <li class="list-group-item">{{marca.nombreMarca}}</li>
-             <li class="list-group-item">{{marca.caracteristicas}}</li>
-             <li class="list-group-item">{{marca.descripcion}}</li>
-             <li class="list-group-item">{{marca.precio}}</li>
-           }
-          
-           </h2>
-          </ul>
-            
-         
+<div class="row justify-content-between">
+    <div class="col-md-6">
+        <div class="row justify-content-center">
+            @for (categoria of productos.categorias; track categoria) {
+                @for (marca of categoria.marcas; track marca) {
+                    <div class="col-10 mb-4">
+                        <div class="card">
+                            <div class="card-header">{{marca.nombre}}</div>
+                            <div class="card-body">
+                                <img src="{{marca.img}}" class="card-img-top" alt="{{marca.nombre}}">
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
         </div>
-  </div>
- 
-}
+    </div>
 
-  
+    <div class="col-md-6">
+        <div class="row justify-content-center">
+            @for (categoria of productos.categorias; track categoria) {
+                @for (marca of categoria.marcas; track marca) {
+                    <div class="col-10 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{marca.nombreMarca}}</h5>
+                                <p class="card-text">{{marca.descripcion}}</p>
+                                <p class="card-text">Precio: {{marca.precio}}</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
 </div>
+
