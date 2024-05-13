@@ -1,10 +1,12 @@
-<div class="row justify-space-evenly">
-  @for (categoria of productos.categorias; track categoria) {
-    <div class="col-3">
+
+  <div class="row justify-space-evenly">
+      @for (categoria of productos.categorias; track categoria) {
+  <div class="col-3">
       <div class="card" style="width: 18rem;">
           <ul class="list-group list-group-flush">
             <li class="list-group-item">{{categoria.dispositivo}}</li>
           </ul>
+          
           <ul>
             <h2>@for (marca of categoria.marcas; track marca) {
                
@@ -19,10 +21,13 @@
           
            </h2>
           </ul>
+            
          
         </div>
   </div>
  
 }
+
   
 </div>
+
