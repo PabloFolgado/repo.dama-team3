@@ -1,9 +1,8 @@
 export interface Productos {
-    categorias: Categoria[]
+    productos: Producto[]
 }
 
-export interface Categoria{
-[x: string]: any
+export interface Producto {
     dispositivo: string
     marcas: Marca[]
     
