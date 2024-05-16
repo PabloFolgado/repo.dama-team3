@@ -2,13 +2,7 @@ export interface Productos {
     categorias: Categoria[]
 }
 
-export interface Categoria{
-[x: string]: any
-    dispositivo: string
-    marcas: Marca[]
-    
-}
-export interface Marca {
+export interface Categoria {
     id: number
     nombreMarca: string
     nombre: string
@@ -16,5 +10,6 @@ export interface Marca {
     caracteristicas: string
     descripcion: string
     precio: string
+    productosRelacionados: []
 
 }
