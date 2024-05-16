@@ -1,36 +1,69 @@
-<div class="row justify-content-between custom-mt-4">
-    <div class="col-md-6">
-        <div class="row justify-content-center">
-            @for (categoria of productos.categorias; track categoria) {
-                @for (marca of categoria.marcas; track marca) {
-                    <div class="col-12 col-sm-6 col-md-10 mb-4">
-                        <div class="card">
-                            <div class="card-header" style="color: white; font-size: 1.5em;">{{marca.nombre}}</div>
-                            <div class="card-body">
-                                <img src="{{marca.img}}" class="card-img-top" alt="{{marca.nombre}}">
-                            </div>
-                        </div>
-                    </div>
-                }
-            }
-        </div>
-    </div>
 
-    <div class="col-md-6">
-        <div class="row justify-content-center">
-            @for (categoria of productos.categorias; track categoria) {
-                @for (marca of categoria.marcas; track marca) {
-                    <div class="col-12 col-sm-6 col-md-10 mb-4">
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: white;">{{marca.nombreMarca}}</h5>
-                                <p class="card-text">{{marca.descripcion}}</p>
-                                <p class="card-text" style="color: white;">Precio: {{marca.precio}}</p>
-                            </div>
-                        </div>
-                    </div>
-                }
+<div class="row g-0 text-center">
+  <div class="col-sm-6 col-md-6" style="color: white;">
+        @for (categoria of productos.categorias; track categoria) {
+          @for (marca of categoria.nombre; track marca) {}
+            
+          @if ((categoria.id) == 1) {
+            <p></p>
+            <h1>{{categoria.nombreMarca}}</h1>
+            <h2>{{categoria.nombre}}</h2>
+            <img src="./assets/Imagenes/portatilapplegris.png" style="width: 500px;"  alt="">
+            
+          }
+        }
+  </div>
+  
+  <div class="col-6 col-md-6 "  style="color: white;">
+          @for (categoria of productos.categorias; track categoria) {
+            <p></p>
+            <p></p>
+            
+              @if ((categoria.id) == 1){
+                
+                <h3>{{categoria.caracteristicas}}</h3>
+                <p>{{categoria.descripcion}}</p>
+                <h3>{{categoria.precio}}</h3>
+                <a routerLink="/pago" class="btn">Añadir al carrito</a>
+                
+                
+              }
+
             }
-        </div>
+  </div>
+
+  
+  <div class="row justify-content-around" style="margin-bottom: 20px;">
+    <h4>Productos relacionados</h4>
+
+    <div class="col-4" >
+      <img src="./assets/Imagenes/Multiconectorgris.png"  routerLink="/catalogo" style="width: 200px; height: 200px;"  alt="">
     </div>
+    <div class="col-4 ">
+      <img src="./assets/Imagenes/Anillo1gris.png" routerLink="/catalogo" style="width: 200px; height: 200px"  alt="">
+    </div>
+    <div class="col-4 ">
+      <img src="./assets/Imagenes/Airtaggris.png" routerLink="/catalogo" style="width: 200px; height: 200px;"  alt="">
+    </div>
+    
+  </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
