@@ -3,6 +3,7 @@ export interface Productos {
 }
 
 export interface Categoria{
+[x: string]: any
     dispositivo: string
     marcas: Marca[]
     

@@ -1,13 +1,11 @@
-
-
-<div class="row justify-content-between">
+<div class="row justify-content-between custom-mt-4">
     <div class="col-md-6">
         <div class="row justify-content-center">
             @for (categoria of productos.categorias; track categoria) {
                 @for (marca of categoria.marcas; track marca) {
-                    <div class="col-10 mb-4">
+                    <div class="col-12 col-sm-6 col-md-10 mb-4">
                         <div class="card">
-                            <div class="card-header">{{marca.nombre}}</div>
+                            <div class="card-header" style="color: white; font-size: 1.5em;">{{marca.nombre}}</div>
                             <div class="card-body">
                                 <img src="{{marca.img}}" class="card-img-top" alt="{{marca.nombre}}">
                             </div>
@@ -22,12 +20,12 @@
         <div class="row justify-content-center">
             @for (categoria of productos.categorias; track categoria) {
                 @for (marca of categoria.marcas; track marca) {
-                    <div class="col-10 mb-4">
-                        <div class="card">
+                    <div class="col-12 col-sm-6 col-md-10 mb-4">
+                        <div class="card mb-4">
                             <div class="card-body">
-                                <h5 class="card-title">{{marca.nombreMarca}}</h5>
+                                <h5 class="card-title" style="color: white;">{{marca.nombreMarca}}</h5>
                                 <p class="card-text">{{marca.descripcion}}</p>
-                                <p class="card-text">Precio: {{marca.precio}}</p>
+                                <p class="card-text" style="color: white;">Precio: {{marca.precio}}</p>
                             </div>
                         </div>
                     </div>
@@ -36,4 +34,3 @@
         </div>
     </div>
 </div>
-
