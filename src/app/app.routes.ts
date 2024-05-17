@@ -7,6 +7,7 @@ import { ProductosComponent } from './componentes/productos/productos.component'
 import { PagoComponent } from './componentes/pago/pago.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DisneyComponent } from './componentes/disney/disney.component';
 
 export const routes: Routes = [
     {path:'', redirectTo:'/home', pathMatch:'full'},
@@ -17,5 +18,6 @@ export const routes: Routes = [
     {path:'productos', title:'Productos', component: ProductosComponent},
     {path:'pago', title:'Pago', component: PagoComponent},
     {path:'contact', title:'Contacto', component: ContactComponent},
+    {path:'personaje', title:'Disney', component: DisneyComponent},
     {path:'**', component: PageNotFoundComponent}
 ];

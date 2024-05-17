@@ -1,176 +1,221 @@
 
 {
     "categorias":[
-        {
-            "dispositivo": "Portátil",
-            "marcas":[
+        
+         
                 {
                     "id": 1,
                     "nombreMarca": "Apple",
                     "nombre": "Apple Macbook Air",
-                    "img": "./assets/Imagenes/portatilapple.png",
+                    "img": "./assets/Imagenes/portatilapplegris.png",
                     "caracteristicas": "M2/8GB/256GB SSD/GPU Octa Core/13.6 Gris Espacial",
                     "descripcion": "El MacBook Air de Apple es conocido por su diseño elegante, portabilidad y potencia excepcional. Este ultrabook liviano ofrece un rendimiento impresionante gracias a su procesador potente y eficiente. La pantalla Retina de alta resolución proporciona colores vibrantes y detalles nítidos para una experiencia visual sorprendente. Con su cuerpo delgado y liviano, el MacBook Air es perfecto para usuarios que buscan portabilidad sin comprometer el rendimiento.La duración de la batería extendida te permite trabajar o disfrutar del entretenimiento durante horas antes de necesitar una recarga. El teclado retroiluminado y el trackpad sensible al tacto brindan una experiencia de escritura y navegación cómoda. Además cuenta con múltiples puertos para una conectividad versátil, lo que facilita la conexión de periféricos y dispositivos externos.",
-                    "precio": "1298,95€"
+                    "precio": "1298,95€",
+                    "productosRelacionados":["./assets/Imagenes/iPhone1.png",
+                    "./assets/Imagenes/iPad.png", 
+                    "./assets/Imagenes/Airtag.png"   
+                    ]
+
                 },
                 {
                     "id": 2,
                     "nombreMarca": "Samsung",
                     "nombre": "Samsung Galaxy Book3r",
-                    "img": "./assets/Imagenes/Portatil.png",
+                    "img": "./assets/Imagenes/Portatilgris.png",
                     "caracteristicas": "Portátil - 15.6 Full-HD, Intel® Core™ i5-1335U, 8GB RAM, 512GB SSD",
                     "descripcion": "El Samsung Galaxy Book3 es una combinación perfecta de estilo y funcionalidad. Equipado con un potente procesador y memoria RAM generosa, este portátil te permite realizar tareas exigentes con facilidad. Su pantalla de alta resolución ofrece colores vibrantes y detalles nítidos para una experiencia visual inmersiva.Con un diseño delgado y elegante, el Galaxy Book3 es fácil de transportar, lo que lo convierte en el compañero ideal para tus desplazamientos diarios. La duración de la batería prolongada garantiza que puedas trabajar o disfrutar del entretenimiento durante horas sin preocuparte por quedarte sin energía. Además, cuenta con características adicionales como un teclado cómodo, múltiples puertos para una conectividad versátil y un sistema operativo intuitivo que facilita la navegación.",
-                    "precio": "993,65€"
+                    "precio": "993,65€",
+                    "productosRelacionados":["./assets/Imagenes/Samsung5.png",
+                    "./assets/Imagenes/Tablet.png",
+                    "./assets/Imagenes/Anillo1.png"
+                    ]
                 },
                 {
                     "id": 3,
                     "nombreMarca": "HP",
                     "nombre": "HP Victus 16",
-                    "img": "./assets/Imagenes/portatil Intel.png",
+                    "img": "./assets/Imagenes/portatil Intelgris.png",
                     "caracteristicas": "AMD Ryzen 7 7840HS/32GB/1TB SSD/RTX 4060/16.1",
                     "descripcion": "El HP Victus 16 es una potente máquina diseñada para los amantes de los juegos y aquellos que requieren un rendimiento excepcional en sus tareas diarias. Con un diseño llamativo y especificaciones de alta gama, este portátil ofrece una experiencia inmersiva. Equipado con un potente procesador y una tarjeta gráfica de alto rendimiento, el HP Victus 16 permite ejecutar juegos exigentes y realizar tareas intensivas sin problemas.La pantalla de alta calidad con una alta frecuencia de actualización ofrece imágenes fluidas y detalles vívidos. El teclado retroiluminado y el sistema de refrigeración eficiente mejoran la comodidad durante sesiones prolongadas. Además, la conectividad avanzada y las opciones de almacenamiento generosas hacen que este portátil sea versátil y listo para el futuro.",
-                    "precio": "1199,00€"
+                    "precio": "1199,00€",
+                    "productosRelacionados":["./assets/Imagenes/Movil Xiaomi.png",
+                    "./assets/Imagenes/Tablet Xiaomi.png",
+                    "./assets/Imagenes/Multiconector.png"
+                    ]
                 },
                 {
                     "id": 4,
                     "nombreMarca": "ASUS",
                     "nombre": "ASUS VivoBook 15",
-                    "img": "./assets/Imagenes/Portatil Asus.png",
+                    "img": "./assets/Imagenes/Portatil Asusgris.png",
                     "caracteristicas": "F1502ZA-EJ650W i5-1235U/16GB/512GB SSD/15.6",
                     "descripcion": "El ASUS VivoBook 15 es una opción ideal para aquellos que buscan un equilibrio entre rendimiento y portabilidad. Con un diseño elegante y compacto, este portátil ofrece un potente rendimiento para satisfacer tus necesidades diarias. Equipado con un procesador eficiente, el VivoBook 15 puede manejar tareas multitarea y ejecutar aplicaciones de forma fluida.La pantalla Full HD proporciona una calidad visual impresionante, con colores vibrantes y detalles nítidos. La construcción ligera del portátil lo hace fácil de transportar, ideal para usuarios en movimiento. El teclado ergonómico y el touchpad preciso mejoran la experiencia de uso, mientras que las opciones de conectividad versátiles te permiten conectar tus dispositivos fácilmente.",
-                    "precio": "569,00€"
-                }
-            ]
-        
-        },
-        {
-            "dispositivo": "Smatphone",
-            "marcas":[
+                    "precio": "569,00€",
+                    "productosRelacionados":["./assets/Imagenes/Huawei.png",
+                     "./assets/Imagenes/Tablet Huawei.png",
+                     "./assets/Imagenes/Cargador portatil.png"
+                    ]
+                },
                 {
                     "id": 5,
                     "nombreMarca": "Apple",
                     "nombre": "iPhone 15 Pro MAX",
-                    "img": "./assets/Imagenes/iPhone1.png",
+                    "img": "./assets/Imagenes/iPhone1gris.png",
                     "caracteristicas": "6,7   1 TB Blanco Negro Azul BeigeM2/8GB/256GB SSD/GPU Octa Core/13.6 Gris Espacial",
                     "descripcion": "El iPhone 15 Pro MAX es la última joya de la corona de Apple, ofreciendo un rendimiento excepcional y un diseño elegante. Con su potente procesador y tecnología innovadora, este teléfono proporciona una experiencia de usuario fluida y eficiente. La cámara avanzada del iPhone 15 Pro MAX captura imágenes y videos de alta calidad, con funciones mejoradas de fotografía nocturna y grabación en 8K.La pantalla Retina XDR Pro ofrece colores vibrantes y negros profundos para una visualización envolvente. Además, la batería de larga duración y las funciones de carga rápida hacen que el iPhone 15 Pro MAX sea ideal para usuarios que buscan un dispositivo confiable y de alto rendimiento.",
-                    "precio": "1200.00€"
+                    "precio": "1200.00€",
+                    "productosRelacionados":["./assets/Imagenes/portatilapple.png",
+                    "./assets/Imagenes/iPad.png",
+                    "./assets/Imagenes/Anillo1.png"
+                    ]
                 },
                 {
                     "id": 6,
                     "nombreMarca": "Samsung",
                     "nombre": "Samsung Galaxy Z Flip5",
-                    "img": "./assets/Imagenes/Samsung5.png",
+                    "img": "./assets/Imagenes/Samsung5gris.png",
                     "caracteristicas": "256 GB - Teléfono Móvil Plegable, 8GB de RAM", 
                     "descripcion": "El Samsung Galaxy Z Flip5 redefine el concepto de smartphones plegables con su diseño elegante y funcionalidad avanzada. Este dispositivo compacto y estilizado presenta una pantalla plegable que te permite disfrutar de una experiencia de visualización impresionante en un formato compacto. Equipado con potentes cámaras, el Galaxy Z Flip5 captura imágenes y videos de alta calidad.Su capacidad de plegado único facilita el manejo y ofrece nuevas formas de interactuar con tu teléfono. Además, cuenta con especificaciones de hardware de alto rendimiento para satisfacer las demandas de multitarea y rendimiento ágil. La durabilidad y la calidad de construcción son características destacadas, lo que hace del Galaxy Z Flip5 una opción innovadora para aquellos que buscan destacar en el mundo de la tecnología móvil.",
-                    "precio": "1049,00€"
+                    "precio": "1049,00€",
+                    "productosRelacionados":["./assets/Imagenes/Portatil.png",
+                    "./assets/Imagenes/Tablet.png",
+                     "./assets/Imagenes/Cargador portatil.png"
+                    ]
                 },
                 {
                     "id": 7,
                     "nombreMarca": "Xiaomi",
                     "nombre": "Xiaomi Redmi Note 13 Pro Plus",
-                    "img": "./assets/Imagenes/Movil Xiaomi.png",
+                    "img": "./assets/Imagenes/Movil Xiaomigris.png",
                     "caracteristicas":"5G 12/512GB, 8GB RAM, USB-C",
                     "descripcion": "El Xiaomi Redmi Note 13 Pro Plus es un smartphone potente con un diseño elegante y características destacadas. Equipado con un potente conjunto de cámaras, ofrece capacidades fotográficas avanzadas para capturar momentos inolvidables. La pantalla AMOLED de 6.7 pulgadas brinda colores vibrantes y detalles nítidos, ideal para disfrutar de contenido multimedia.El rendimiento fluido está garantizado gracias a su potente procesador y amplia capacidad de almacenamiento. La batería de larga duración y la carga rápida aseguran que el Xiaomi Redmi Note 13 Pro Plus esté listo para acompañarte a lo largo del día.",
-                    "precio": "1120.00€"
+                    "precio": "1120.00€",
+                    "productosRelacionados":["./assets/Imagenes/portatil Intel.png",
+                    "./assets/Imagenes/Tablet Xiaomi.png",
+                    "./assets/Imagenes/Multiconector.png" 
+                    ]
                 },
                 {
                     "id": 8,
                     "nombreMarca": "Huawei",
                     "nombre": "Huawei P40 Lite 5G",
-                    "img": "./assets/Imagenes/Huawei.png",
+                    "img": "./assets/Imagenes/Huaweigris.png",
                     "caracteristicas":"Smartphone 128GB, 6GB RAM, Space Silver",
                     "descripcion": "El Huawei P40 Lite 5G es un smartphone que combina un diseño elegante con potentes características. Equipado con conectividad 5G, este dispositivo ofrece velocidades de descarga ultrarrápidas y un rendimiento excepcional. La cámara cuádruple del Huawei P40 Lite 5G te permite capturar imágenes impresionantes en una variedad de situaciones.Además, su cámara frontal de alta resolución es perfecta para selfies nítidos y detallados. Con su pantalla Full HD de 6.5 pulgadas, disfrutarás de una experiencia visual inmersiva. El procesador eficiente y la batería de larga duración garantizan un rendimiento constante durante todo el día.",
-                    "precio": "800.00€"
-                }
-            ]
-        },
-        {
-            "dispositivo": "Tablets/iPads",
-            "marcas":[
+                    "precio": "800.00€",
+                    "productosRelacionados":["./assets/Imagenes/Tablet Huawei.png",
+                    "./assets/Imagenes/Portatil Asus.png",
+                    "Samsung Galaxy Z Flip5"]
+                },
                 {
                     "id": 9,
                     "nombreMarca": "Apple",
                     "nombre": "Apple iPad Pro 2022",
-                    "img": "./assets/Imagenes/iPad.png",
+                    "img": "./assets/Imagenes/iPadgris.png",
                     "caracteristicas":"11 WiFi+Cellular 1TB Gris Oscuro",
                     "descripcion": "El Apple iPad Pro 2022 es la última incorporación a la reconocida línea de tablets de Apple. Diseñado para ofrecer un rendimiento excepcional, este iPad cuenta con el potente chip M-series que garantiza una experiencia fluida y rápida en todas las tareas.La impresionante pantalla Liquid Retina XDR de 12.9 pulgadas proporciona colores realistas y un brillo excepcional, ideal para editar fotos, ver videos o trabajar en proyectos creativos. Con capacidades avanzadas de cámara y compatibilidad con el Apple Pencil y el Magic Keyboard, el iPad Pro 2022 se adapta a tus necesidades creativas y profesionales.",
-                    "precio": "1790,00€"
+                    "precio": "1790,00€",
+                    "productosRelacionados":["./assets/Imagenes/portatilapple.png",
+                    "./assets/Imagenes/iPhone1.png",
+                    "./assets/Imagenes/Airtag.png"]
                 },
                 {
                     "id": 10,
                     "nombreMarca": "Samsung",
                     "nombre": "Samsung Galaxy Tab S9 Ultra",
-                    "img": "./assets/Imagenes/Tablet.png",
+                    "img": "./assets/Imagenes/Tabletgris.png",
                     "caracteristicas":"WiFi 16/1TB Gris + Cargador 25W",
                     "descripcion": "La Samsung Galaxy Tab S9 Ultra es una tablet de alto rendimiento que ofrece una experiencia multimedia excepcional. Su pantalla AMOLED de alta resolución proporciona colores vibrantes y detalles nítidos, perfectos para disfrutar de tus contenidos favoritos.Con un potente rendimiento impulsado por un procesador de última generación y una gran capacidad de almacenamiento, esta tablet está diseñada para satisfacer tus necesidades tanto en el trabajo como en el entretenimiento. Además, su diseño elegante y portátil la convierte en el compañero ideal para llevar a cualquier lugar.",
-                    "precio": "1409,00€"
+                    "precio": "1409,00€",
+                    "productosRelacionados":["./assets/Imagenes/Portatil.png",
+                    "./assets/Imagenes/Samsung5.png",
+                    "./assets/Imagenes/Airtag.png"
+                    ]
                 },
                 {
                     "id": 11,
                     "nombreMarca": "Xiaomi",
                     "nombre": "Xiaomi Pad 6 Go",
-                    "img": "./assets/Imagenes/Tablet Xiaomi.png",
+                    "img": "./assets/Imagenes/Tablet Xiaomigris.png",
                     "caracteristicas":"27,9 cm (11) Wi-Fi 6 (802.11ax) Android 13",
                     "descripcion": "El Xiaomi Pad 6 Go es una tablet que combina un diseño elegante con un rendimiento eficiente. Diseñada para ofrecer una experiencia multimedia inmersiva, esta tablet cuenta con una pantalla vibrante y colores nítidos que te permitirán disfrutar de tus contenidos favoritos con una calidad excepcional.Con un procesador potente y una interfaz intuitiva, el Xiaomi Pad 6 Go es ideal tanto para el entretenimiento como para la productividad. Su diseño ligero y compacto la hace fácil de transportar, brindándote la flexibilidad de usarla en cualquier lugar.",
-                    "precio": "920,00€"
+                    "precio": "920,00€",
+                    "productosRelacionados":["./assets/Imagenes/Movil Xiaomi.png",
+                    "iPhone 15 Pro MAX",
+                    "./assets/Imagenes/portatil Intel.png"
+                    ]
                 },
                 {
                     "id": 12,
                     "nombreMarca": "Huawei",
                     "nombre": "Huawei MateBook D 14",
-                    "img": "./assets/Imagenes/Tablet Huawei.png",
+                    "img": "./assets/Imagenes/Tablet Huaweigris.png",
                     "caracteristicas":"Intel® Core™ i5-1240P, 16GB+512GB",
                     "descripcion": "La Huawei MateBook D 14 es una laptop elegante y potente que combina un diseño atractivo con un rendimiento excepcional. Equipada con un procesador de última generación, esta laptop ofrece la potencia necesaria para realizar tareas cotidianas y trabajar en proyectos más exigentes.La pantalla FullView de 14 pulgadas proporciona una experiencia visual inmersiva, mientras que el diseño compacto y ligero hace que sea fácil de llevar a cualquier lugar. El MateBook D 14 también destaca por su duración de batería prolongada, lo que te permite trabajar durante más tiempo sin preocuparte por la carga.",
-                    "precio": "1050,00€"
-                }
-
-            ] 
-        },
-        {
-            "dispositivo": "Accesorios",
-            "marcas":[
+                    "precio": "1050,00€",
+                    "productosRelacionados":["./assets/Imagenes/Huawei.png",
+                    "./assets/Imagenes/portatil Intel.png", 
+                    "./assets/Imagenes/Multiconector.png"
+                    ]
+                },
                 {
                     "id": 13,
                     "nombreMarca": "Coolreall",
                     "nombre": "Coolreall Power Bank",
-                    "img": "./assets/Imagenes/Cargador portatil.png",
+                    "img": "./assets/Imagenes/Cargador portatilgris.png",
                     "caracteristicas":"22.5W 10000mAh Bateria Externa Carga Rapida, USB C PD3.0 QC4.0 Cargador Portatil, Delgado & Ligero Powerbank Compatible con iPhone 15 14 13 12 Pro Samsung S23 Xiaomi AirPods",
                     "descripcion": "La batería portátil Coolreall 10.000 mAh destaca por su peso ligero, pesando solo 220 gramos y con unas dimensiones de 13.6 x 6.8 x 1.6 cm, lo que lo hace extremadamente portátil y práctico para llevarlo a todas partes. Además, su capacidad de 10.000 mAh garantiza una larga duración de carga para tus dispositivos.",
-                    "precio": "60,90€"
+                    "precio": "60,90€",
+                    "productosRelacionados":["ASUS VivoBook 15", 
+                    "./assets/Imagenes/Huawei.png",
+                    "./assets/Imagenes/Tablet Xiaomi.png"
+                    ]
                 },
                 {
                     "id": 14,
                     "nombreMarca": "Apple ",
                     "nombre": "Apple AirTag",
-                    "img": "./assets/Imagenes/Airtag.png",
+                    "img": "./assets/Imagenes/Airtaggris.png",
                     "caracteristicas":"APPLE AirTag, Localizador, Paquete de 2 unidad, Bluetooth, Chip U1, NFC, Privaciad de serie, Plata",
                     "descripcion": "AirTag es una forma realmente fácil de realizar un seguimiento de tus cosas. Adjunta uno a tus llaves, desliza otro en tu mochila. Y así, están en tu radar en la aplicación Find My, donde también puedes rastrear tus dispositivos Apple y mantenerte al día con amigos y familiares.",
-                    "precio": "105,99€"
+                    "precio": "105,99€",
+                    "productosRelacionados":["./assets/Imagenes/portatilapple.png",
+                    "./assets/Imagenes/iPhone1.png", 
+                    "./assets/Imagenes/iPad.png"
+                    ]
                 },
                 {
                     "id": 15,
                     "nombreMarca": " Ultrahuman ",
                     "nombre": "Anillo inteligente Ultrahuman",
-                    "img": "./assets/Imagenes/Anillo1.png",
+                    "img": "./assets/Imagenes/Anillo1gris.png",
                     "caracteristicas":"Ultrahuman Ring Air Anillo Inteligente Talla 10 20.75mm 24 mAh Plata",
                     "descripcion": "El Ring Air de Ultrahuman es un anillo inteligente cómodo y elegante que monitoriza tus tendencias de sueño, movimiento y recuperación, motivándote a tomar decisiones más saludables cada día.",
-                    "precio": "220,00€"
+                    "precio": "220,00€",
+                    "productosRelacionados":["./assets/Imagenes/Tablet.png",
+                    "./assets/Imagenes/Airtag.png", 
+                    "./assets/Imagenes/Multiconector.png"
+                    ]
                 },
                 {
                     "id": 16,
                     "nombreMarca": "Ugreen",
                     "nombre": "Multiconector Ugreen",
-                    "img": "./assets/Imagenes/Multiconector.png",
+                    "img": "./assets/Imagenes/Multiconectorgris.png",
                     "caracteristicas":"UGREEN Revodok Hub USB C Ethernet Gigabit HDMI 4K PD 100W Adaptador USB C a USB 3.0 Compatible con MacBook Pro Air, iPad Pro Air, Galaxy S24 Plus Ultra, iPhone 15 Pro MAX, Surface Pro, Galaxy Tab S9",
                     "descripcion": "Gracias a este hub USB C 6 en 1, su portátil ya no estará limitado por sus puertos originales. Añade inmediatamente un puerto Gigabit Ethernet, un puerto HDMI 4K, un puerto de carga de 100 W y tres puertos USB 3.0 para tu PC conectando este concentrador a través del puerto USB C, mejorando drásticamente tu eficiencia.",
-                    "precio": "60,90€"
+                    "precio": "60,90€",
+                    "productosRelacionados":["./assets/Imagenes/Movil Xiaomi.png",
+                    "./assets/Imagenes/Tablet Huawei.png",
+                    "./assets/Imagenes/Cargador portatil.png"
+                    ]
                 }
                 
 
             ]
-        }
+        
 
-    ]
+    
 }
     
 

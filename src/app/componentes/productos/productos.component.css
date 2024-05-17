@@ -15,12 +15,21 @@
 h4{
     display: flex;
     justify-content: center;
-    color: rgb(247, 252, 253)
+    color: rgb(247, 252, 253);
+    margin-bottom: 40px;
+    
+    
 }
 .card{
     margin-left: 90px;
 }
 h3, h2, p, h5{
     color: rgb(247, 252, 253) ;
+}
+.col-6{
+    margin-top: 90px;
+}
+p,h3{
+    margin-right: 30px;
 }
 
