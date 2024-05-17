@@ -13,3 +13,6 @@
 9. Por qué la página de carritos tiene otro estilo visual. si por lo general el sitio tiene tonalidades entre grises y verdes, porqué la página de carrito es azul con blanco.
 10. En la página para registrarse, los elementos del formulario están demasiado pegados a los bordes.
 11. Aunque aún le quedarían pendientes algunos detallitos más para que estuviera al máximo la maquetación está bastante bien salvo por estas cuestiones de diseño que le dejé señaladas arriba.
+
+
+## esto es una prueba
