@@ -1,3 +1,7 @@
+.container-fluid{
+  background-color: #34403E;
+  padding: 10px;
+}
 .card{
     background-color: #34403E;
 }
